@@ -1,73 +1,97 @@
-<!DOCTYPE html> <!-- Define que el documento es HTML-->
-<html lang="esp"> 
-    <head>
-        <!-- Compatibilidad con navegadores antiguos -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoja de Vida</title>
 
-        <!-- Hace que la página se adapte a celulares (responsive) -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: #dcdcdc;
+            font-family: "Times New Roman", serif;
+        }
 
-        <!-- Define la codificación de caracteres  -->
-        <meta charset="UTF-8">
+        h1{
+            text-align: center;
+            color: #2f4f4f;
+            text-decoration: underline;
+        }
 
-        <title>Hoja de vida jordi</title>
-    </head>
+        h2{
+            color: darkred;
+        }
 
-    <body>
-        <!-- Título principal de la página -->
-        <h1>HOJA DE VIDA</h1>
-        <br>
+        /* CAJAS PARA TODAS LAS SECCIONES */
+        .caja{
+            border: 3px solid darkred;
+            width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #000;
+        }
+    </style>
+</head>
 
-        <!-- Sección de datos personales -->
-        <h1> Datos personales:</h1>
-        <p>Nombre: Jordi Morales</p>
-        <p>Correo: Alexandersangucho2018@gmail.com </p>
-        <p>Ciudad: Quito, Ecuador</p>
+<body>
 
-        <br>
+    <!-- TÍTULO PRINCIPAL -->
+    <h1>Hoja de Vida</h1>
 
-        <!-- Perfil profesional -->
-        <h1>Perfil Profesional:</h1> 
+    <!-- DATOS PERSONALES -->
+    <div class="caja">
+        <h2>Datos Personales</h2>
+        <p><strong>Nombre:</strong> Jordi Morales</p>
+        <p><strong>Correo:</strong> Alexandersangucho2018@gmail.com</p>
+        <p><strong>Ciudad:</strong> Quito, Ecuador</p>
+        <p><strong>Edad:</strong> 19 años</p>
+        <p><strong>Teléfono:</strong> 0999999999</p>
+    </div>
+
+    <!-- PERFIL -->
+    <div class="caja">
+        <h2>Perfil Profesional</h2>
         <p>
             Estudiante de Desarrollo de Software con interés en el área tecnológica 
             y la programación. Responsable, puntual y con ganas de aprender y crecer profesionalmente.
         </p>
+    </div>
 
-        <br>
-
-        <!-- Formación académica -->
-        <h1>Formación Académica</h1>
+    <!-- FORMACIÓN -->
+    <div class="caja">
+        <h2>Formación Académica</h2>
         <p>Unidad Educativa Fiscal Los Shyris</p>
+    </div>
 
-        <br>
+    <!-- HABILIDADES -->
+    <div class="caja">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Aprendizaje rápido</li>
+            <li>Puntualidad</li>
+            <li>Responsabilidad</li>
+            <li>Trabajo en equipo</li>
+            <li>Conocimiento básico en programación</li>
+        </ul>
+    </div>
 
-        <!-- Lista de habilidades -->
-        <h1>Habilidades:</h1>
-        <p>1.- Aprendizaje rápido</p>
-        <p>2.- Puntualidad</p>
-        <p>3.- Responsabilidad</p>
-        <p>4.- Trabajo en equipo</p>
-        <p>5.- Conocimiento básico en programación</p>
+    <!-- IDIOMAS -->
+    <div class="caja">
+        <h2>Idiomas</h2>
+        <p>Español: Nativo</p>
+    </div>
 
-        <br>
+    <!-- EXPERIENCIA -->
+    <div class="caja">
+        <h2>Experiencia Laboral</h2>
+        <p><strong>Call center</strong></p>
+        <p>Encargado de dar a conocer paquetes turísticos y atención al cliente</p>
+    </div>
 
-        <!-- Idiomas -->
-        <h1>Idiomas:</h1>
-        <p>Español: nativo</p>
-
-        <br>
-        
-        <!-- Experiencia laboral -->
-        <h1>Experiencia Laboral:</h1>
-        <p>1.- Call center</p>
-        <p>2.- Encargado de dar a conocer paquetes turísticos y atención al cliente</p>
-
-        <br>
-
-        <!-- Referencias -->
-        <h1>Referencias:</h1>
+    <!-- REFERENCIAS -->
+    <div class="caja">
+        <h2>Referencias</h2>
         <p>Disponibles bajo solicitud</p>
+    </div>
 
-
-    </body>
+</body>
 </html>
