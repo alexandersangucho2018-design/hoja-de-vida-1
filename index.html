@@ -1,79 +1,44 @@
-<!DOCTYPE html> <!-- Define que el documento es HTML-->
-<html lang="esp"> 
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-        <title>Hoja de vida jordi</title>
+<!DOCTYPE html> 
+<html lang="es"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de vida Jordi</title>
 
-        <style>
-            body{
-                background-color: white;
-                color: black;
-                font-family: Arial, sans-serif;
-            }
-
-            /* título centrado */
-            h1:first-of-type{
-                text-align: center;
-            }
-
-            /* Cuadros */
-            .caja{
-                border: 2px solid black;
-                padding: 10px;
-                margin: 15px;
-            }
-        </style>
-    </head>
-
+    <!-- aqui conecto el css -->
+    <link rel="stylesheet" href="estilo/estilo.css">
+</head>
     <body>
-
+        <!-- titulo principal -->
         <h1>HOJA DE VIDA</h1>
-
+         <!-- este cuadro es para datos personales -->
         <div class="caja">
-            <h1> Datos personales:</h1>
-            <p>Nombre: Jordi Morales</p>
-            <p>Correo: Alexandersangucho2018@gmail.com </p>
-            <p>Ciudad: Quito, Ecuador</p>
+            <h2>Datos personales</h2>
+                <p>Nombre: Jordi Morales</p>
+                <p>Ciudad: Quito, Ecuador</p>
         </div>
-
+             <!-- este cuadro es el perfil -->
         <div class="caja">
-            <h1>Perfil Profesional:</h1> 
-            <p>
-                Estudiante de Desarrollo de Software con interés en el área tecnológica 
-                y la programación. Responsable, puntual y con ganas de aprender y crecer profesionalmente.
-            </p>
+            <h2>Perfil Profesional</h2>
+                <p>Estudiante de Desarrollo de Software con interes en programacion.</p>
         </div>
-
+            <!-- este cuadro es la formacion -->
         <div class="caja">
-            <h1>Formación Académica</h1>
-            <p>Unidad Educativa Fiscal Los Shyris</p>
+            <h2>Formacion Academica</h2>
+                <p>Unidad Educativa Fiscal Los Shyris</p>
         </div>
-
+            <!-- este cuadro es habilidades -->
         <div class="caja">
-            <h1>Habilidades:</h1>
-            <p>1.- Aprendizaje rápido</p>
-            <p>2.- Puntualidad</p>
-            <p>3.- Responsabilidad</p>
-            <p>4.- Trabajo en equipo</p>
-            <p>5.- Conocimiento básico en programación</p>
+            <h2>Habilidades</h2>
+                <p>Aprendizaje rapido</p>
+                <p>Responsabilidad</p>
+                <p>Trabajo en equipo</p>
         </div>
-
+    <!-- aqui pongo el link a contactos -->
         <div class="caja">
-            <h1>Idiomas:</h1>
-            <p>Español: nativo</p>
-        </div>
-
-        <div class="caja">
-            <h1>Experiencia Laboral:</h1>
-            <p>1.- Call center</p>
-            <p>2.- Encargado de dar a conocer paquetes turísticos y atención al cliente</p>
-        </div>
-
-        <div class="caja">
-            <h1>Referencias:</h1>
-            <p>Disponibles bajo solicitud</p>
+            <a href="contactos/contacto.html" target="_blank" class="boton">
+            Ir a mis contactos
+        </a>
         </div>
 
     </body>

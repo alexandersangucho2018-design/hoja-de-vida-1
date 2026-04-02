@@ -1,0 +1,29 @@
+/*aqui cambio el fondo y letra*/
+body{
+    background-color: #e6f0ff;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+/*titulo principal centrado*/
+h1{
+    text-align: center;
+    color: #003366;
+}
+/*estos son los cuadros*/
+.caja{
+    border: 2px solid black;
+    padding: 15px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+/*subtitulos*/
+h2{
+    color: #0055aa;
+}
+/* enlaces a sitios web*/
+.boton{
+    background: none;
+    color: #003366;
+    text-decoration: none;
+}
